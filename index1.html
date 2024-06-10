@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .second {
+        width: 1320px;
+        margin: auto;
+    
+      }
+    </style>
+  </head>
+
+  <body class="">
+    <div class="second">
+      <div class=" flex  space-x-4 items-center justify-between">
+        <div>
+          <img
+            src="https://www.redtape.com/cdn/shop/files/logo.png?v=1704870276&width=270"
+            alt=""
+          />
+        </div>
+        <div>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <hr class="w-96 " />
+        </div>
+        <div class="flex border items-center">
+          <img class="w-6 h-6" src="data:image/png;base64,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" alt="">
+          <select name="pets" id="pet-select">
+            <option value="">INDIA</option>
+            <option value="dog">AMERICA</option>
+            <option value="cat">FRANCE</option>
+            
+          </select>
+        </div>
+      </div>
+      <div class="flex  space-x-4 items-center justify-between my-3.5">
+        <div>
+            <p>Men</p>
+        </div>
+        <div>
+            <p>Women</p>
+        </div>
+        <div>
+            <p>Kids</p>
+        </div>
+        <div>
+            <p>Accessories</p>
+        </div>
+        <div>
+            <p>Gifting</p>
+        </div>
+        <div>
+            <p>Soda Water X RedTape</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-user"></i>
+            <span>Login</span>   
+        </div>
+        <div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>Cart</span>
+        </div>
+        <div>
+            <i class="fa-regular fa-heart"></i>
+            <span>WishList</span>
+        </div>
+      </div>
+    </div>
+     <hr>
+
+    <div class="second">
+       <h1 class="text-4xl">Register Account</h1> 
+       <p class="my-3.5">If you already have an account with us, please login at the login page.</p>
+      <h1 class="text-4xl">Your Personal Details</h1>
+      <hr />
+      <form action="">
+        <div class="flex  space-x-4 items-center justify-between">
+            <div class="mb-4 w-96">
+                <label for="firstname" class="block text-gray-700">First Name</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="firstname"
+                  placeholder="First Name"
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500 w-96"
+                  required
+                />
+              </div>
+              <div class="mb-4 w-96">
+                <label for="lastname" class="block text-gray-700">Last Name</label>
+                <input
+                  type="text"
+                  id="firstname"
+                  name="lastname"
+                  placeholder="Last Name"
+                  required
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500"
+                />
+              </div>
+        </div>
+        <div class="flex  space-x-4 items-center justify-between">
+            <div class="mb-4 w-96">
+                <label for="email" class="block text-gray-700">Email</label>
+                <input
+                  type="email"
+                  id="firstname"
+                  name="email"
+                  placeholder="Email"
+                  required
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500"
+                />
+              </div>
+              <div class="mb-4 w-96">
+                <label for="telephone" class="block text-gray-700">Telephone</label>
+                <input
+                  type="tel"
+                  id="telephone"
+                  name="telephone"
+                  placeholder="Telephone"
+                  required
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500"
+                />
+              </div>
+        </div>
+        
+        <h1 class="text-4xl">Your Password</h1>
+        <hr />
+        <div class="flex  space-x-4 items-center justify-between" >
+            <div class="mb-4 w-96">
+                <label for="telephone" class="block text-gray-700">password</label>
+                <input
+                  type="password"
+                  id="telephone"
+                  name="telephone"
+                  placeholder="password"
+                  required
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500"
+                />
+              </div>
+              <div class="mb-4 w-96">
+                <label for="telephone" class="block text-gray-700"
+                  >password Confirm</label
+                >
+                <input
+                  type="password"
+                  id="telephone"
+                  name="telephone"
+                  placeholder="password Confirm"
+                  required
+                  class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-red-500"
+                />
+              </div>
+        </div>
+        
+        <h1 class="text-4xl">Newsletter</h1>
+        <hr />
+        <div>
+          <span class="text-2xl">Subscribe</span>
+          <input type="radio" id="Yes" name="hii" value="Yes" checked />
+          <label for="Yes">Yes</label>
+          <input type="radio" id="No" name="hii" value="No" />
+          <label for="No">No</label>
+        </div>
+
+        <div class="float-right">
+          <label for="coding"
+            >I have read and agree to the Privacy Policy
+          </label>
+          <input type="checkbox" id="coding" name="interest" value="coding" />
+          <button class="bg-black text-white">Create</button>
+        </div>
+      </form>
+    </div>
+    <footer class="second  py-8 flex  space-x-4 items-center justify-between my-3.">
+        <div>
+            <p>What's in Store
+                </p>
+            <p>Men</p>
+            <p> Kids</p>
+            <p>Accessories</p>
+            <p>Gifting</p>
+        </div>
+        <div>
+            <p>About Company</p>
+            <p>About Us</p>
+            <p>News</p>
+            <p>Careers</p>
+            <p>Sustainability</p>
+        </div>
+        <div>
+            <p>Customer Info</p>
+            <p>Contact Us</p>
+            <p>Feedback</p>
+            <p>My Account</p>
+            <p>Store Locator</p>
+            <p>Store Expansion</p>
+        
+        
+        </div>
+        <div>
+            <p>Policies</p>
+            <p>Return & Replacing</p>
+            <p>Privacy Policy</p>
+            <p>Terms & Conditions</p>
+        </div>
+        <div><img src="https://www.redtape.com/cdn/shop/files/rt.jpg?v=1707332114" alt=""></div>
+        <div>
+            <img src="https://www.redtape.com/cdn/shop/files/mb_2b859227-cde7-4265-9bb6-61e5ab54929d_100x.png?v=1707332108" alt="">
+        </div>
+        <div>
+            <img src="https://www.redtape.com/cdn/shop/files/bsb_100x.png?v=1707332118" alt="">
+        </div>
+    </footer>
+    <footer class="second bg-black text-white">
+        <h1 >Redtape,all Right Reseverd</h1>
+    </footer>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
